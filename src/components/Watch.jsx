@@ -31,7 +31,7 @@ const Watch = () => {
     <div>
       <h1>Stopwatch</h1>
       <div style={{ marginBottom: "10px" }}>
-        Time : {`${min} : ${sec < 10 ? `0${sec}` : sec}`}
+        Time: {`${min}:${sec < 10 ? `0${sec}` : sec}`}
       </div>
       <div>
         <button onClick={handlerStartStop}>{start ? "Stop" : "Start"}</button>
